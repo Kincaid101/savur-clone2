@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.mainContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.header {
+    width: 100%;
+    height: 15vh;
+    background-color:white;
+    display: flex;
+    position: fixed;
+    z-index: 99;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70%;
+    width: 15%;
+    margin-left: 10%;
+
+}
+
+.savur {
+    font-size: 70px;
+    font-weight: 900;
+    color: teal;
+
+}
+
+.signup {
+    width: 20%;
+    padding: 8px;
+    border-radius: 10px;
+    background-color:wheat;
+    border-color: teal;
+    border: none;
+
+}
+#nun {
+    margin-left: 10px;
+}
+
+.signup:hover {
+    font-size: 25px;
+    font-weight:600;
+    color: #fafafa;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid #00c99a;
+}
+
+.anchor {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.anchor a {
+   font-size: 30px;
+   text-decoration: none;
+   color: black;
+}
+
+.mainSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 15vh;
+    /* background-color: brown; */
+}
+
+.left {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: darkslategray; */
+}
+.right {
+    height: 100%;
+    width: 60%;
+    background-color:rgba(2, 2, 40, 0.123);
+    background-size: contain;
+    background-repeat:repeat;
+    background-image: url(/home_v3_noikea.f51393c1.jpeg);
+}
+
+.leftTop {
+    /* background-color: blueviolet; */
+    height:20%;
+}
+
+
+.leftBottom {
+    height: 70%;
+    /* background-color: aqua; */
+
+}
+
+#element {
+    color: rgb(67, 245, 141);
+    display: inline-block;
+    padding-right: 5px;
+    overflow: hidden; /* Hide overflowing content */
+    white-space: nowrap; /* Prevent text from wrapping */
+    cursor: none;
+}
+
+.carousel-inner  {
+    height:60vh;
+    width:30px;
+    
+}
+
+.carousel-inner img{
+    height: 50vh;
+    width: 20px;
+    border-radius: 20px;
+}
+
+
+#carouselExampleAutoplaying {
+    width: 50%;
+    margin-left: 20%;
+    border-radius: 20px;
+    margin-top: 5%;
+
+}
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-inner h1 {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 400;
+    color:teal;
+}
+
+
+.type {
+    font-weight: 800;
+    margin-top: 4%;
+}
+
+
+.container {
+    /* margin-top: 6%; */
+    /* background-color: wheat; */
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-weight: 900;
+    color:#00c99a;
+}
+
+.secondMain {
+    height: 50vh;
+    width: 100%;
+    background-color:#00292e
+    ;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondMainOne {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.secondMainLeft {
+    width: 50%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.secondMainLeft h1 {
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.secondMainLeft p {
+    margin-left: 10%;
+    margin-bottom: 30%;
+    color: white;
+}
+
+
+.secondMainRight {
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+}
+
+.secondMainTwo {
+    border-top: 2px solid white;
+    border-width: 70%;
+    background-color:#00292e
+    ;
+}
+
+.secondMainTwo p {
+    margin-left: 10%;
+    color: white;
+}
+
+.patner {
+    width: 30%;
+}
+
+.company{
+    width: 40%;
+}
+
+.instagram {
+    width: 20%;
+}
+
+.patner,.company,.instagram {
+    text-align:flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.secondMainRight h2 {
+    margin-top:8%;
+    color: white;
+    font-weight: bolder;
+}
+
+.secondMainRight a {
+    text-decoration: none;
+    color: white;
+}
+
+.carry {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    background-color: blue;
+}
+
+.pop{
+    width: 100%;
+    height: 10vh;
+    background-color: #00c99a;
+    /* margin-top: 50px; */
+}
+
+.topCar {
+    width: 100%;
+    height: 40vh;
+    background-color: blueviolet;
+
+}
+#carouselExample {
+    background-color: burlywood;
+    height: 30vh;
+    display: flex;
+}
+
+
+.flower{
+    height:50px;
+    width:50px;
+    margin-left: 10px;
+    /* margin-left: 5px; */
+}
+
+
+
+
+
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
